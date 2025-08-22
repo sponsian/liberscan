@@ -33,6 +33,8 @@ import cere from "./cere";
 import ajuna from "./ajuna";
 import interlay from "./interlay";
 import fintraTestnet from "./fintraTestnet";
+import liberland from "./liberland";
+import liberlandTestnet from "./liberland-testnet";
 
 const chains = {
   polkadot,
@@ -73,6 +75,8 @@ const chains = {
   cere,
   "cere-testnet": cereTestnet,
   "fintra-testnet": fintraTestnet,
+  liberland,
+  "liberland-testnet": liberlandTestnet,
 };
 
 export default chains;
